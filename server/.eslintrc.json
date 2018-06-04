@@ -8,9 +8,10 @@
     }
   },
   "rules": {
-    "semi": 2,
+    "semi": "off",
     "linebreak-style": ["error", "windows"],
     "comma-dangle": "off",
-    "array-bracket-newline": "error"
+    "array-bracket-newline": "error",
+    "no-unused-vars": "warn"
   }
 }
