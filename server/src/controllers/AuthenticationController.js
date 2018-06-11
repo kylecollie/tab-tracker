@@ -34,7 +34,7 @@ module.exports = {
         });
       }
 
-      const isPasswordValid = password === user.password;
+      const isPasswordValid = user.comparePassword(password);
       if (!isPasswordValid) {
         return res.status(403).send({
           error: 'The login information was not correct.'
