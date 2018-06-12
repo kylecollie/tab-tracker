@@ -6,6 +6,8 @@
           <v-toolbar-title>Login</v-toolbar-title>
         </v-toolbar>
         <div class="pl-4 pr-4 pt-2 pb-2">
+          <form name="tab-tracker-login">
+
           <v-text-field
             label="Email"
             v-model="email"
@@ -13,6 +15,7 @@
           <br>
           <v-text-field
             label="Password"
+            type="password"
             v-model="password"
           ></v-text-field>
           <br>
@@ -24,6 +27,7 @@
             @click="login">
             Login
           </v-btn>
+          </form>
         </div>
       </div>
     </v-flex>
