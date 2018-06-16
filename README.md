@@ -6,3 +6,5 @@ Vuejs / expressjs web app keeping track of guitar tabs
 [Git Repo](https://github.com/codyseibert/tab-tracker)
 
 [My Implementation](https://github.com/kylecollie/tab-tracker)
+
+npm audit fix
