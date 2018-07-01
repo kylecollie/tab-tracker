@@ -11,4 +11,6 @@ module.exports = app => {
   app.put('/songs/:songId', SongsController.put);
   app.post('/songs', SongsController.post);
   app.get('/bookmarks', BookmarksController.index);
+  app.post('/bookmarks', BookmarksController.post);
+  app.delete('/bookmarks/:bookmarkId', BookmarksController.delete);
 };
